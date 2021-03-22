@@ -1,0 +1,3 @@
+[submodule "data-serde/experiment/third-party/protobuf"]
+	path = data-serde/experiment/third-party/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
