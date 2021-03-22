@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package themis.benchmarks;
+
+message Test {
+  string a = 1;
+}
+
+message TestList {
+  repeated Test data = 1;
+}
+
+message TestWrapper {
+  TestList a = 1;
+}
